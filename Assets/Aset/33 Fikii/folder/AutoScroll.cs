@@ -26,7 +26,7 @@ public class AutoScroll : MonoBehaviour
         {
             while(myGorectTransform.localPosition.y< boundaryTextEnd)
             {
-                myGorectTransform.Tranlate(Vector3.up * speed * Time.deltaTime);
+                myGorectTransform.Translate(Vector3.up * speed * Time.deltaTime);
                 yield return null;
             }
         }
