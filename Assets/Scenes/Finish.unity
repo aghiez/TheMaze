@@ -345,16 +345,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Adah Zaena Aghesy \nAhmad Muktafi\t\nAhmad Nabil Ardivansa\nAzkal Mujtaba\t\nChamdani
+  m_text: "Adah Zaena Ageshy \nAhmad Muktafi\t\nAhmad Nabil Ardivansa\nAzkal Mujtaba\t\nChamdani
     Satiawan \nEzra Mudiaputra \nFadhillah Achmad Ghozali\nFadia Walidah Zidnee El
     Fahmi \nFarah Nabila\nFitri Abigail\nGanni Alkautsar\t\nHideaki Hayyi Shinji\t\nIntan
     Muta\u2019aliy\t\nIntan Nur Naisyilla\t\nIsa Al Faayadh Robbani \nKeane Dylan
-    Fashshal Khair \nLisa Rizkiyah \nM. Farel Ar-Rizieq\nMahardika Fadhila Nararya
-    \nMochammad Hanung Izulhaq\nMuhammad \u2018Aisy\nMuhammad Arka Cahya Firdaus
-    \nMuhammad Azka El Fairuz \nMuhammad Fahmi Amrulloh \nMuhammad Ma\u2019ruf Sadida
-    \nMuhammad Radan Satria Adana \nMuhammad Rasyid Ramadhan \nMuhammad Zhalla Azhmalhuda\t\nMusa
-    Khadim \nNabila Al Sita \nNukman Zadi \nNur Fiki \nRaditya Arsa Wardana \nSabila
-    Safitri\t\nSalma Azzurroh\t"
+    Fashshal Khair\nKeisya Agung Nugroho Saputra \nLisa Rizkiyah \nM. Farel Ar-Rizieq\nMahardika
+    Fadhila Nararya \nMochammad Hanung Izulhaq\nMuhammad \u2018Aisy\nMuhammad Arka
+    Cahya Firdaus \nMuhammad Azka El Fairuz \nMuhammad Fahmi Amrulloh \nMuhammad
+    Ma\u2019ruf Sadida \nMuhammad Radan Satria Adana \nMuhammad Rasyid Ramadhan \nMuhammad
+    Zhalla Azhmalhuda\t\nMusa Khadim \nNabila Al Sita \nNukman Zadi \nNur Fiki \nRaditya
+    Arsa Wardana \nSabila Safitri\t\nSalma Azzurroh\t"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -978,11 +978,11 @@ MonoBehaviour:
   m_text: "Property Builder\nProperty Builder & Animation\nProperty Builder\nProperty
     Builder\nProperty Builder\nGame Owner\nSound Maker\nProperty Builder\nScene Maker\nProperty
     Builder\nProperty Builder\nProperty Builder\nProperty Builder\nProperty Builder\nScene
-    Maker\nProperty Builder\nProperty Builder & Scene Maker\nProperty Builder\nDesign
-    Scene \nGame Owner \nProperty Builder\nGame Owner\nProperty Builder\nProperty
-    Builder\nProperty Builder\nScene Design\nProperty Builder\nProperty Builder\nProperty
-    Builder\nProperty Builder\nProperty Builder\nScene Maker\nProperty Builder\nProperty
-    Builder\nProperty Builder\n\n"
+    Maker\nProperty Builder & Scene Maker\nProperty Builder \nProperty Builder &
+    Scene Maker\nDesign Scene \nGame Owner \nProperty Builder\nGame Owner\nProperty
+    Builder\nProperty Builder\nProperty Builder\nScene Design\nProperty Builder\nProperty
+    Builder\nProperty Builder\nProperty Builder\nProperty Builder\nScene Maker\nProperty
+    Builder\nProperty Builder\nProperty Builder\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
