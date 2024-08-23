@@ -30495,6 +30495,75 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 4, y: 4.0000005, z: 0.20000003}
   m_Center: {x: 0, y: 0.00000023841864, z: 0.0000001101389}
+--- !u!1001 &2067508109
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f3700c1d343bce540a61e9e9248d9ff8, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 169.43971
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f3700c1d343bce540a61e9e9248d9ff8, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 169.43971
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f3700c1d343bce540a61e9e9248d9ff8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 169.43971
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f3700c1d343bce540a61e9e9248d9ff8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -20.128
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f3700c1d343bce540a61e9e9248d9ff8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.5695479
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f3700c1d343bce540a61e9e9248d9ff8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -20.444
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f3700c1d343bce540a61e9e9248d9ff8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f3700c1d343bce540a61e9e9248d9ff8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f3700c1d343bce540a61e9e9248d9ff8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f3700c1d343bce540a61e9e9248d9ff8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f3700c1d343bce540a61e9e9248d9ff8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f3700c1d343bce540a61e9e9248d9ff8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f3700c1d343bce540a61e9e9248d9ff8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f3700c1d343bce540a61e9e9248d9ff8, type: 3}
+      propertyPath: m_Name
+      value: teleponjadull
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f3700c1d343bce540a61e9e9248d9ff8, type: 3}
 --- !u!1 &2067769236
 GameObject:
   m_ObjectHideFlags: 0
@@ -31702,3 +31771,4 @@ SceneRoots:
   - {fileID: 87091162}
   - {fileID: 77499615}
   - {fileID: 592240591}
+  - {fileID: 2067508109}
