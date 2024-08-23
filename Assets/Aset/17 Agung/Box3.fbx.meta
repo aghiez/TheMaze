@@ -8,17 +8,17 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: box_COLOR
-    second: {fileID: 2800000, guid: b9c8376b262f0084aa4fb427aae39e9a, type: 3}
+    second: {fileID: 2800000, guid: af4ecd12da207864da12de8fa4606d1b, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: box_NRM
-    second: {fileID: 2800000, guid: 495fad0ba07322045b034a9f33cabfea, type: 3}
+    second: {fileID: 2800000, guid: a1349135a8bf12548a5ca72df17948f9, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: box_SPEC
-    second: {fileID: 2800000, guid: 9a8a0226c39fe9340aa956497eb58e5c, type: 3}
+    second: {fileID: 2800000, guid: 674a0f1c37cb6ed4898542f1687126b0, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

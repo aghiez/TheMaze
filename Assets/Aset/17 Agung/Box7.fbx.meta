@@ -8,22 +8,22 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Cardbox_1_basecolor
-    second: {fileID: 2800000, guid: 8452deef94276684d9f216482a8e3e90, type: 3}
+    second: {fileID: 2800000, guid: 1fc5aa946b2631c40ae5c41191b599dc, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Cardbox_1_metallic
-    second: {fileID: 2800000, guid: 79c8a9cc4f4840c409741519278d50c0, type: 3}
+    second: {fileID: 2800000, guid: d0813c59ff7f2344dbcbe496b7122325, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Cardbox_1_normal
-    second: {fileID: 2800000, guid: f6e9a185d2cc47c418a78a64f284a4b7, type: 3}
+    second: {fileID: 2800000, guid: 08830addb2fa7514988ad8128e203440, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Cardbox_1_roughness
-    second: {fileID: 2800000, guid: 8188e9862517a4c45a59115272eba57d, type: 3}
+    second: {fileID: 2800000, guid: 79c1b49b2b736a742bd803398afe2424, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
