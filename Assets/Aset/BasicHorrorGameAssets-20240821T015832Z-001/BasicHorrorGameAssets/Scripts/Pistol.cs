@@ -27,7 +27,7 @@ public class Pistol : MonoBehaviour
 
 
 
-    public Animator gun;
+    //public Animator gun;
     public ParticleSystem muzzleFlash;
     public GameObject muzzleFlashLight;
     public AudioSource shoot;
@@ -77,7 +77,7 @@ public class Pistol : MonoBehaviour
             shoot.Play();
             muzzleFlash.Play();
             muzzleFlashLight.SetActive(true);
-            gun.SetBool("shoot", true);
+            //gun.SetBool("shoot", true);
 
             // Perform the shoot action
             RaycastHit hit;
@@ -141,7 +141,7 @@ public class Pistol : MonoBehaviour
         if (bulletsToReload > 0)
         {
 
-            gun.SetBool("reload", true);
+            //gun.SetBool("reload", true);
             StartCoroutine(endAnimations());
 
 
@@ -179,8 +179,8 @@ public class Pistol : MonoBehaviour
     IEnumerator endAnimations()
     {
         yield return new WaitForSeconds(.1f);
-        gun.SetBool("shoot", false);
-        gun.SetBool("reload", false);
+        //gun.SetBool("shoot", false);
+        //gun.SetBool("reload", false);
 
 
     }
