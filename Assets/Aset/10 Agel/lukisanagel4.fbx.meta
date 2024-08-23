@@ -1,9 +1,14 @@
 fileFormatVersion: 2
-guid: 69bdf1ce9c18478489c3bde7fc505e30
+guid: 901e40e942d40be44bb451285902f6b7
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Painting Of The Ocean
+    second: {fileID: 2100000, guid: 1071191b3bc877f47be34c52e78bfd44, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

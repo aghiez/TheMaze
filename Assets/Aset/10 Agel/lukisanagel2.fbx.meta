@@ -1,9 +1,14 @@
 fileFormatVersion: 2
-guid: a7f1b4dbc4c252848850d445fc125b27
+guid: c18cfb4c2dff4344bb709351c02d1392
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pintura
+    second: {fileID: 2100000, guid: deeae2c6b7724a64eb82449ddd3f5bf5, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
