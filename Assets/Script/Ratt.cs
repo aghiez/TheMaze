@@ -4,41 +4,47 @@ using UnityEngine;
 
 public class Ratt : MonoBehaviour
 {
- import random
-import time
+ public int width = 20;
+    public int height = 20;
+    public int iterations = 100;
 
-def running_mouse(width, height, iterations):
-    # Initialize the grid with all zeros
-    grid = [[0 for _ in range(width)] for _ in range(height)]
+    private bool[,] grid;
 
-    # Start at a random position
-    x, y = random.randint(0, width - 1), random.randint(0, height - 1)
-    grid[y][x] = 1
+    void Start()
+    {
+        grid = new bool[width, height];
 
-    # Directions to move in
-    directions = [(0, 1), (0, -1), (1, 0), (-1, 0)]
+        int x = Random.Range(0, width);
+        int y = Random.Range(0, height);
+        grid[y, x] = true;
 
-    for _ in range(iterations):
-        # Choose a random direction
-        dx, dy = random.choice(directions)
+        int[] dx = { 0, 0, 1, -1 };
+        int[] dy = { 1, -1, 0, 0 };
 
-        # Calculate the new position
-        new_x, new_y = x + dx, y + dy
+        for (int i = 0; i < iterations; i++)
+        {
+            int newX = x + dx[Random.Range(0, 4)];
+            int newY = y + dy[Random.Range(0, 4)];
 
-        # Check if the new position is within the grid
-        if 0 <= new_x < width and 0 <= new_y < height:
-            # Move to the new position
-            x, y = new_x, new_y
-            grid[y][x] = 1
+            if (newX >= 0 && newX < width && newY >= 0 && newY < height)
+            {
+                x = newX;
+                y = newY;
+                grid[y, x] = true;
+            }
 
-        # Print the current state of the grid
-        for row in grid:
-            print(''.join(['#' if cell else ' ' for cell in row]))
-        print()
+            string output = "";
+            for (int j = 0; j < height; j++)
+            {
+                for (int k = 0; k < width; k++)
+                {
+                    output += grid[j, k] ? "#" : " ";
+                }
+                output += "\n";
+            }
+            Debug.Log(output);
 
-        # Wait for a short time before moving again
-        time.sleep(0.1)
-
-# Run the simulation
-running_mouse(20, 20, 100)
+            System.Threading.Thread.Sleep(100);
+        }
+    }
 }
