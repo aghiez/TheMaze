@@ -27,7 +27,7 @@ public class Pistol : MonoBehaviour
 
 
 
-    //public Animator gun;
+    public Animator gun;
     public ParticleSystem muzzleFlash;
     public GameObject muzzleFlashLight;
     public AudioSource shoot;
@@ -38,6 +38,7 @@ public class Pistol : MonoBehaviour
         currentAmmoInStorage = maxAmmoInStorage;
         canSwitch = true;
         muzzleFlashLight.SetActive(false);
+
     }
 
     void Update()
@@ -53,6 +54,7 @@ public class Pistol : MonoBehaviour
             switchCooldown = shootCooldown;
             Shoot();
         }
+        
 
         // Check for reload input
         if (Input.GetKeyDown(KeyCode.R))
@@ -77,7 +79,7 @@ public class Pistol : MonoBehaviour
             shoot.Play();
             muzzleFlash.Play();
             muzzleFlashLight.SetActive(true);
-            //gun.SetBool("shoot", true);
+            gun.SetBool("shoot", true);
 
             // Perform the shoot action
             RaycastHit hit;
@@ -179,7 +181,7 @@ public class Pistol : MonoBehaviour
     IEnumerator endAnimations()
     {
         yield return new WaitForSeconds(.1f);
-        //gun.SetBool("shoot", false);
+        gun.SetBool("shoot", false);
         //gun.SetBool("reload", false);
 
 
