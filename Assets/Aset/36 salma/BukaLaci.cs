@@ -19,7 +19,7 @@ public class BukaLaci : MonoBehaviour
     }
 
     public void GeserLaci(){
-        float moveSpeed = 5f;
+        sfloat moveSpeed = 5f;
         Vector3 customDirection = new Vector3(0, -5, 0);
         laci.transform.Translate(customDirection * moveSpeed * Time.deltaTime);
     }
