@@ -8,12 +8,12 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Cardboard Box SQ01 512x1024 Diffuse
-    second: {fileID: 2800000, guid: cfd19e94353248644bb5cf54bcbaa05a, type: 3}
+    second: {fileID: 2800000, guid: 7e204eb6724819c44a9c0212003b8492, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Cardboard Box SQ01 512x1024 Roughness
-    second: {fileID: 2800000, guid: 893565b0def3a7c4b899f71fea1c65eb, type: 3}
+    second: {fileID: 2800000, guid: 454267a9fdb7c6e418a3114ba5c99c75, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

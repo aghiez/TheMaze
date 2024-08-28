@@ -8,17 +8,17 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: cardboard_box_01_diff_4k
-    second: {fileID: 2800000, guid: f5e18712f6887c743a8f3e49be3551ce, type: 3}
+    second: {fileID: 2800000, guid: 8f6f8358bf7cdc64f98dd0f1ab01e153, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: cardboard_box_01_nor_gl_4k
-    second: {fileID: 2800000, guid: 089dcf5bf45d8464097bb2709b689c59, type: 3}
+    second: {fileID: 2800000, guid: f201542f8947eda4d89587bc1d5e563e, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: cardboard_box_01_rough_4k
-    second: {fileID: 2800000, guid: 6502c22103c52b241998a98a09e64f57, type: 3}
+    second: {fileID: 2800000, guid: 77fb5fc6c4c655842bf47064674cd71d, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

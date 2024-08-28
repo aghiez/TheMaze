@@ -38,6 +38,7 @@ public class Pistol : MonoBehaviour
         currentAmmoInStorage = maxAmmoInStorage;
         canSwitch = true;
         muzzleFlashLight.SetActive(false);
+
     }
 
     void Update()
@@ -53,6 +54,7 @@ public class Pistol : MonoBehaviour
             switchCooldown = shootCooldown;
             Shoot();
         }
+        
 
         // Check for reload input
         if (Input.GetKeyDown(KeyCode.R))
@@ -141,7 +143,7 @@ public class Pistol : MonoBehaviour
         if (bulletsToReload > 0)
         {
 
-            gun.SetBool("reload", true);
+            //gun.SetBool("reload", true);
             StartCoroutine(endAnimations());
 
 
@@ -180,7 +182,7 @@ public class Pistol : MonoBehaviour
     {
         yield return new WaitForSeconds(.1f);
         gun.SetBool("shoot", false);
-        gun.SetBool("reload", false);
+        //gun.SetBool("reload", false);
 
 
     }

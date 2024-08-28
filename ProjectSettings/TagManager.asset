@@ -6,6 +6,7 @@ TagManager:
   tags:
   - reachTool
   - ReachTool
+  - Rat
   layers:
   - Default
   - TransparentFX

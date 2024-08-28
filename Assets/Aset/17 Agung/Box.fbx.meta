@@ -8,17 +8,17 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: 86d8fc3a9c
-    second: {fileID: 2800000, guid: f1a6f339c481ced48ba92cacf0c25073, type: 3}
+    second: {fileID: 2800000, guid: 5637cab0835302149aa515617843e280, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: caixa-de-papel_o-para-transporte-e-mudan_a_n.02_700x700
-    second: {fileID: 2800000, guid: cfdc4d5f1ac173a4596895ca117e1db6, type: 3}
+    second: {fileID: 2800000, guid: 2b12f89270e899547968f71b1e203408, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: p_caixa-de-papelao-para-transporte_11106_62918_22
-    second: {fileID: 2800000, guid: 02a25e3c685d24147a03ef79c625dff4, type: 3}
+    second: {fileID: 2800000, guid: b48ffaec856c39246a7543eff06970d5, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

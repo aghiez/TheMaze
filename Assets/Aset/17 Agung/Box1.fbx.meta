@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: 8K Upscaled box texture000
-    second: {fileID: 2800000, guid: 4433825233234c44b9f721cf10462f23, type: 3}
+    second: {fileID: 2800000, guid: 64910cd483ee60d4cb4ad31ac4783264, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
