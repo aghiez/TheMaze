@@ -6,11 +6,13 @@ using UnityEngine.UI;
 public class Keypad : MonoBehaviour
 {
     [SerializeField] private Text Ans;
+    public GameObject benarsalah;
+    public GameObject tutup;
 
     public void Number(int number)
     {
         int panjang = Ans.text.Length;
-        if(panjang <= 7){
+        if(panjang <= 4){
             Ans.text += number.ToString();
         }
         
@@ -31,7 +33,15 @@ public class Keypad : MonoBehaviour
         string jawaban = Ans.text;
         if(jawaban == "24434"){
             Debug.Log("Benar");
+            benarsalah.SetActive(false);
+            tutup.SetActive(false);
         }else{
+            string text = Ans.text;
+            string textjadi = Ans.text.Substring(0, Ans.text.Length - 5);
+            Ans.text = textjadi;
+
+            benarsalah.SetActive(true);
+
             Debug.Log("Salah");
         }
     }
