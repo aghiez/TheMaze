@@ -8,6 +8,7 @@ TagManager:
   - ReachTool
   - Reach
   - Tile
+  - Enemy
   layers:
   - Default
   - TransparentFX
