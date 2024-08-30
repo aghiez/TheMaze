@@ -6,6 +6,8 @@ TagManager:
   tags:
   - reachTool
   - ReachTool
+  - Reach
+  - Tile
   layers:
   - Default
   - TransparentFX
