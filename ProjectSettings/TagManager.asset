@@ -9,6 +9,7 @@ TagManager:
   - Reach
   - Tile
   - Enemy
+  - Wood
   layers:
   - Default
   - TransparentFX
