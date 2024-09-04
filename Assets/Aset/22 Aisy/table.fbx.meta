@@ -3,7 +3,22 @@ guid: d835c7537711def4885666114ea50a5a
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MetalScratched007_NRM_3K
+    second: {fileID: 2800000, guid: 43e9987724574f44f882d7b0090aa955, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WoodFlooring045_COL2_3K
+    second: {fileID: 2800000, guid: bef11ff28b3311d4ba3194a876ea0933, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WoodFlooring045_NRM_3K
+    second: {fileID: 2800000, guid: 496729e46f802de4bab98a856a8c5fd7, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
