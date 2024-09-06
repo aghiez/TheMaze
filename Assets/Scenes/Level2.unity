@@ -8473,6 +8473,80 @@ Transform:
   - {fileID: 1691824479}
   m_Father: {fileID: 562025242}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &385696105
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2089491352}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 7d216c3ff86a6704da7875967a19cfc9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.9564824
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7d216c3ff86a6704da7875967a19cfc9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4.9564824
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7d216c3ff86a6704da7875967a19cfc9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4.9564824
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7d216c3ff86a6704da7875967a19cfc9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -14.789303
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7d216c3ff86a6704da7875967a19cfc9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.0069953
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7d216c3ff86a6704da7875967a19cfc9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -25.627
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7d216c3ff86a6704da7875967a19cfc9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7d216c3ff86a6704da7875967a19cfc9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7d216c3ff86a6704da7875967a19cfc9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7d216c3ff86a6704da7875967a19cfc9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7d216c3ff86a6704da7875967a19cfc9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7d216c3ff86a6704da7875967a19cfc9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7d216c3ff86a6704da7875967a19cfc9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7d216c3ff86a6704da7875967a19cfc9, type: 3}
+      propertyPath: m_Name
+      value: lukisan5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7d216c3ff86a6704da7875967a19cfc9, type: 3}
+--- !u!4 &385696106 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7d216c3ff86a6704da7875967a19cfc9, type: 3}
+  m_PrefabInstance: {fileID: 385696105}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &393204235
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26013,7 +26087,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c18cfb4c2dff4344bb709351c02d1392, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -22.864304
+      value: -22.845
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c18cfb4c2dff4344bb709351c02d1392, type: 3}
       propertyPath: m_LocalPosition.y
@@ -47674,6 +47748,7 @@ Transform:
   - {fileID: 1061972104}
   - {fileID: 1130732539}
   - {fileID: 1447547697}
+  - {fileID: 385696106}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2096953623
