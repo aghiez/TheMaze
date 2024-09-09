@@ -16704,6 +16704,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 256047850262927856, guid: 261f7d219fd1a4541a3c1168cc37453f, type: 3}
+      propertyPath: fadeout
+      value: 
+      objectReference: {fileID: 953155515}
     - target: {fileID: 5839169040316521800, guid: 261f7d219fd1a4541a3c1168cc37453f, type: 3}
       propertyPath: m_Name
       value: Enemy
@@ -21176,6 +21180,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f3a488cebe751c64282bcb40cdd4523c, type: 3}
   m_PrefabInstance: {fileID: 948315028}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &953155515 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2084154268217762520, guid: 188836c707e649840bb262e2a6ca9314, type: 3}
+  m_PrefabInstance: {fileID: 1465614925}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &959220418
 GameObject:
@@ -33456,7 +33465,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 929093430533567545, guid: 188836c707e649840bb262e2a6ca9314, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.978
+      value: 0.366
       objectReference: {fileID: 0}
     - target: {fileID: 6551278273489535572, guid: 188836c707e649840bb262e2a6ca9314, type: 3}
       propertyPath: m_LocalPosition.x
@@ -33464,7 +33473,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6551278273489535572, guid: 188836c707e649840bb262e2a6ca9314, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.51
+      value: 1.114
       objectReference: {fileID: 0}
     - target: {fileID: 6551278273489535572, guid: 188836c707e649840bb262e2a6ca9314, type: 3}
       propertyPath: m_LocalPosition.z
@@ -33498,6 +33507,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6693867067390632822, guid: 188836c707e649840bb262e2a6ca9314, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 9097e57cd086e184eb2677d297ebef84, type: 2}
     - target: {fileID: 8326810863673069004, guid: 188836c707e649840bb262e2a6ca9314, type: 3}
       propertyPath: m_Name
       value: Player
