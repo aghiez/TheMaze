@@ -45,7 +45,12 @@ public class Keypad : MonoBehaviour
             string textjadi = Ans.text.Substring(0, Ans.text.Length - 5);
             Ans.text = textjadi;
             salah.SetActive(true);
+            Invoke("tutup", 2);
         }
+    }
+
+    public void tutup(){
+        salah.SetActive(false);
     }
 
 
