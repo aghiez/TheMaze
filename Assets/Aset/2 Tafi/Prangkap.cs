@@ -22,12 +22,15 @@ public class Prangkap : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             PlayerController.walkSpeed = 0f;
+            aaz.SetActive(true);
             Invoke("speedbalik", 3f);
         }
     }
 
     private void speedbalik()
     {
+        aaz.SetActive(false);
         PlayerController.walkSpeed = 3f;
+        Destroy(gameObject);
     }
 }
