@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 
+
 public class EnemyHealth : MonoBehaviour
 {
     public int maxHealth = 100; // Maximum health of the enemy.
