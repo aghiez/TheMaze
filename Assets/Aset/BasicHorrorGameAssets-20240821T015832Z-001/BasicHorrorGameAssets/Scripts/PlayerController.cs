@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     public Camera playerCam;
 
     // Movement Settings:
-    public float walkSpeed = 3f;
+    public static float walkSpeed = 3f;
     public float runSpeed = 5f;
     public float jumpPower = 0f;
     public float gravity = 10f;
