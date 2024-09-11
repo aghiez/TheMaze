@@ -5,24 +5,12 @@ public class CreditController : MonoBehaviour
 {
     public float scrollSpeed = 50f; // Kecepatan scroll kredit
     public float endPositionY = 100f; // Posisi Y akhir kredit
-    public string nextSceneName = "Ending"; // Nama scene berikutnya setelah kredit
 
     private RectTransform rectTransform;
 
     private void Start()
     {
         rectTransform = GetComponent<RectTransform>();
-
-        // Pastikan kredit hanya muncul sekali
-        if (PlayerPrefs.HasKey("CreditsSeen"))
-        {
-            LoadNextScene();
-        }
-        else
-        {
-            PlayerPrefs.SetInt("CreditsSeen", 1);
-            PlayerPrefs.Save();
-        }
     }
 
     private void Update()
@@ -32,16 +20,15 @@ public class CreditController : MonoBehaviour
             // Menggerakkan kredit ke atas
             rectTransform.anchoredPosition += Vector2.up * scrollSpeed * Time.deltaTime;
 
-            // Jika kredit sudah mencapai posisi akhir, lanjutkan ke scene berikutnya
+            // Jika kredit sudah mencapai posisi akhir, berhenti scroll
             if (rectTransform.anchoredPosition.y > endPositionY)
             {
-                Invoke("LoadNextScene", 2f); // Menunggu beberapa detik sebelum pindah scene
+                // Jika tidak ada scene lain, kita tidak perlu pindah scene
+                // Anda bisa menambahkan logika lain di sini jika diperlukan
+                // Misalnya, menampilkan pesan atau melakukan sesuatu yang lain
+                // Namun, jika ini adalah scene terakhir, Anda bisa membiarkannya berhenti di sini
+                enabled = false; // Mematikan skrip agar tidak melakukan update lagi
             }
         }
-    }
-
-    private void LoadNextScene()
-    {
-        SceneManager.LoadScene(nextSceneName);
     }
 }
