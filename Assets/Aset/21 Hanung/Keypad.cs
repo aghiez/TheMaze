@@ -11,7 +11,8 @@ public class Keypad : MonoBehaviour
 
     void Start()
     {
-        
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 
     public void Number(int number)
@@ -40,6 +41,9 @@ public class Keypad : MonoBehaviour
         if(jawaban == "24434"){
             Debug.Log("Benar");
             benar.SetActive(false);
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+            Destroy(gameObject);
         }else{
             string text = Ans.text;
             string textjadi = Ans.text.Substring(0, Ans.text.Length - 5);
@@ -50,7 +54,7 @@ public class Keypad : MonoBehaviour
     }
 
     public void tutup(){
-        salah.SetActive(false);
+        gameObject.SetActive(false);
     }
 
 
