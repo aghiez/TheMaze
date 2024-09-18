@@ -1493,12 +1493,12 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 6.5287857, y: 0.48869178, z: 3.0888226}
-  m_Center: {x: -0.4718109, y: 0.13557751, z: -0.6497308}
+  m_Size: {x: 6.5287857, y: 2.8681571, z: 3.0888226}
+  m_Center: {x: -0.4718109, y: 1.3253102, z: -0.6497308}
 --- !u!114 &90877083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1511,8 +1511,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5589d9c4ba55214a976b163a6af98f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slowDuration: 3
-  slowMultiplier: 5
+  aaz: {fileID: 90877081}
 --- !u!1001 &114146685
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2878,12 +2877,12 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 6.5539494, y: 0.4061111, z: 3.059934}
-  m_Center: {x: -0.44283786, y: 0.1776991, z: -0.6692588}
+  m_Size: {x: 6.5539494, y: 2.4064035, z: 3.5208006}
+  m_Center: {x: -0.44283783, y: 1.1778454, z: -0.43882555}
 --- !u!114 &183635027
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2896,8 +2895,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5589d9c4ba55214a976b163a6af98f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slowDuration: 3
-  slowMultiplier: 5
+  aaz: {fileID: 183635025}
 --- !u!1001 &189491537
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5090,12 +5088,12 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 6.5956016, y: 0.26790708, z: 2.9576774}
-  m_Center: {x: -0.3387945, y: 0.11704411, z: -0.61410517}
+  m_Size: {x: 6.5956016, y: 3.6347733, z: 2.9576774}
+  m_Center: {x: -0.3387945, y: 1.8004771, z: -0.61410517}
 --- !u!114 &350715268
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5108,8 +5106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5589d9c4ba55214a976b163a6af98f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slowDuration: 3
-  slowMultiplier: 5
+  aaz: {fileID: 350715266}
 --- !u!1001 &350756782
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5205,12 +5202,12 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 6.5747128, y: 0.28706008, z: 2.994443}
-  m_Center: {x: -0.4347867, y: 0.13778068, z: -0.6200615}
+  m_Size: {x: 6.5747128, y: 2.4674952, z: 2.994443}
+  m_Center: {x: -0.4347867, y: 1.2279983, z: -0.6200615}
 --- !u!114 &350756785
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5223,8 +5220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5589d9c4ba55214a976b163a6af98f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slowDuration: 3
-  slowMultiplier: 5
+  aaz: {fileID: 350756783}
 --- !u!1 &351912449 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 845fe471ecb53984cb65dabda34d8375, type: 3}
@@ -5627,12 +5623,12 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 6.7086, y: 0.44354013, z: 3.0107312}
-  m_Center: {x: -0.54727274, y: 0.12070939, z: -0.66180646}
+  m_Size: {x: 6.7086105, y: 2.2544076, z: 3.0107365}
+  m_Center: {x: -0.54727274, y: 1.0261432, z: -0.66180646}
 --- !u!114 &373031677
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5645,8 +5641,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5589d9c4ba55214a976b163a6af98f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slowDuration: 3
-  slowMultiplier: 5
+  aaz: {fileID: 373031675}
 --- !u!1001 &377151338
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6208,12 +6203,12 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 6.5166078, y: 0.37167242, z: 3.0326164}
-  m_Center: {x: -0.45832458, y: 0.110116385, z: -0.65718454}
+  m_Size: {x: 6.5166078, y: 2.2707539, z: 3.0326164}
+  m_Center: {x: -0.45832458, y: 1.059658, z: -0.65718454}
 --- !u!114 &401733399
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6226,8 +6221,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5589d9c4ba55214a976b163a6af98f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slowDuration: 3
-  slowMultiplier: 5
+  aaz: {fileID: 401733397}
 --- !u!1001 &407938497
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8378,7 +8372,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3852086af9907cf428ac3b9f9979afe4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 59.571
+      value: 58.93
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3852086af9907cf428ac3b9f9979afe4, type: 3}
       propertyPath: m_LocalPosition.y
@@ -8386,7 +8380,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3852086af9907cf428ac3b9f9979afe4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10.238
+      value: -9.216
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3852086af9907cf428ac3b9f9979afe4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8459,12 +8453,12 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 7.0606065, y: 0.41168344, z: 3.013088}
-  m_Center: {x: -0.6588159, y: 0.186758, z: -0.63977796}
+  m_Size: {x: 7.118191, y: 2.5737429, z: 3.013088}
+  m_Center: {x: -0.6398117, y: 1.2677878, z: -0.63977385}
 --- !u!114 &557095613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8477,8 +8471,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5589d9c4ba55214a976b163a6af98f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slowDuration: 3
-  slowMultiplier: 5
+  aaz: {fileID: 557095611}
 --- !u!1001 &557911172
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16950,12 +16943,12 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 6.574607, y: 0.3015763, z: 2.996269}
-  m_Center: {x: -0.45372924, y: 0.18339735, z: -0.6262985}
+  m_Size: {x: 6.5746136, y: 3.1847012, z: 2.996269}
+  m_Center: {x: -0.45372924, y: 1.6249623, z: -0.6262985}
 --- !u!114 &1002196220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16968,8 +16961,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5589d9c4ba55214a976b163a6af98f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slowDuration: 3
-  slowMultiplier: 5
+  aaz: {fileID: 1002196218}
 --- !u!1001 &1005492361
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17065,12 +17057,12 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 6.5009117, y: 0.3738525, z: 2.954654}
-  m_Center: {x: -0.45566806, y: 0.18115684, z: -0.60316014}
+  m_Size: {x: 6.5009117, y: 2.8407755, z: 2.954654}
+  m_Center: {x: -0.45566806, y: 1.4146168, z: -0.60316014}
 --- !u!114 &1005492364
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17083,8 +17075,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5589d9c4ba55214a976b163a6af98f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slowDuration: 3
-  slowMultiplier: 5
+  aaz: {fileID: 1005492362}
 --- !u!1001 &1005787141
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21495,7 +21486,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3852086af9907cf428ac3b9f9979afe4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 38.793
+      value: 38.15
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3852086af9907cf428ac3b9f9979afe4, type: 3}
       propertyPath: m_LocalPosition.y
@@ -21503,7 +21494,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3852086af9907cf428ac3b9f9979afe4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -16.635
+      value: -16.469
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3852086af9907cf428ac3b9f9979afe4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -21568,12 +21559,12 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 6.584781, y: 0.2650449, z: 2.926066}
-  m_Center: {x: -0.4444151, y: 0.10740435, z: -0.5968422}
+  m_Size: {x: 7.3588557, y: 3.202047, z: 4.847812}
+  m_Center: {x: -0.83145005, y: 1.5759058, z: -1.5577177}
 --- !u!114 &1219912623
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21586,8 +21577,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5589d9c4ba55214a976b163a6af98f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slowDuration: 3
-  slowMultiplier: 5
+  aaz: {fileID: 1219912621}
 --- !u!1001 &1224706503
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25133,12 +25123,12 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 6.5728984, y: 0.4007504, z: 2.9967933}
-  m_Center: {x: -0.4441628, y: 0.20756768, z: -0.63223046}
+  m_Size: {x: 6.5728984, y: 1.9642415, z: 2.9967933}
+  m_Center: {x: -0.4441628, y: 0.98931324, z: -0.63223046}
 --- !u!114 &1437359048
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25151,8 +25141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5589d9c4ba55214a976b163a6af98f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slowDuration: 3
-  slowMultiplier: 5
+  aaz: {fileID: 1437359046}
 --- !u!1001 &1455217264
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27417,12 +27406,12 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 6.4972954, y: 0.35153458, z: 3.0365198}
-  m_Center: {x: -0.48677716, y: 0.13136554, z: -0.62526476}
+  m_Size: {x: 6.4972954, y: 2.2629273, z: 3.0365198}
+  m_Center: {x: -0.48677716, y: 1.087062, z: -0.62526476}
 --- !u!114 &1602705442
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27435,8 +27424,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5589d9c4ba55214a976b163a6af98f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slowDuration: 3
-  slowMultiplier: 5
+  aaz: {fileID: 1602705440}
 --- !u!1001 &1603570726
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28541,12 +28529,12 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 6.6888585, y: 0.5253277, z: 3.0344293}
-  m_Center: {x: -0.4448709, y: 0.16582127, z: -0.63665986}
+  m_Size: {x: 6.6888585, y: 2.7970834, z: 3.0344293}
+  m_Center: {x: -0.4448709, y: 1.3016988, z: -0.63665986}
 --- !u!114 &1682498392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28559,8 +28547,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5589d9c4ba55214a976b163a6af98f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slowDuration: 3
-  slowMultiplier: 5
+  aaz: {fileID: 1682498390}
 --- !u!1001 &1682557877
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28648,6 +28635,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6685809762433423783, guid: 340b5e0d0ebccd14194c5c65cb8a11b6, type: 3}
       insertIndex: 4
       addedObject: {fileID: 1682557879}
+    - targetCorrespondingSourceObject: {fileID: 6685809762433423783, guid: 340b5e0d0ebccd14194c5c65cb8a11b6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1682557888}
   m_SourcePrefab: {fileID: 100100000, guid: 340b5e0d0ebccd14194c5c65cb8a11b6, type: 3}
 --- !u!1 &1682557878 stripped
 GameObject:
@@ -28667,6 +28657,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+--- !u!54 &1682557888
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1682557878}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
 --- !u!1001 &1683938019
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31449,12 +31466,12 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 6.867858, y: 0.3843836, z: 2.998385}
-  m_Center: {x: -0.677929, y: 0.117973484, z: -0.642113}
+  m_Size: {x: 6.867858, y: 3.8870258, z: 4.50495}
+  m_Center: {x: -0.677929, y: 1.8692946, z: 0.11117078}
 --- !u!114 &1850832073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31467,8 +31484,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5589d9c4ba55214a976b163a6af98f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slowDuration: 3
-  slowMultiplier: 5
+  aaz: {fileID: 1850832071}
 --- !u!1001 &1858914865
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32279,12 +32295,12 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 6.540736, y: 0.28034124, z: 3.0049765}
-  m_Center: {x: -0.45806384, y: 0.14792922, z: -0.6190136}
+  m_Size: {x: 6.540736, y: 3.6575456, z: 3.0049765}
+  m_Center: {x: -0.45806384, y: 1.8365293, z: -0.6190136}
 --- !u!114 &1908769801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32297,8 +32313,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5589d9c4ba55214a976b163a6af98f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slowDuration: 3
-  slowMultiplier: 5
+  aaz: {fileID: 1908769799}
 --- !u!1001 &1913258381
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34651,12 +34666,12 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 6.5092463, y: 0.36132458, z: 3.02185}
-  m_Center: {x: -0.45159295, y: 0.1893556, z: -0.59799117}
+  m_Size: {x: 6.5092463, y: 2.6269457, z: 3.02185}
+  m_Center: {x: -0.45159295, y: 1.3221662, z: -0.59799117}
 --- !u!114 &2031467894
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34669,8 +34684,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5589d9c4ba55214a976b163a6af98f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slowDuration: 3
-  slowMultiplier: 5
+  aaz: {fileID: 2031467892}
 --- !u!1 &2038807104 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b3080d4bad32f2741b2ce45caab3515c, type: 3}
@@ -35669,12 +35683,12 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 6.5490193, y: 0.41132975, z: 3.0386431}
-  m_Center: {x: -0.47551912, y: 0.17804942, z: -0.63277566}
+  m_Size: {x: 6.5490193, y: 2.9776452, z: 3.0386431}
+  m_Center: {x: -0.47551897, y: 1.4612072, z: -0.63277566}
 --- !u!114 &2091906089
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35687,8 +35701,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5589d9c4ba55214a976b163a6af98f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slowDuration: 3
-  slowMultiplier: 5
+  aaz: {fileID: 2091906087}
 --- !u!1 &2092776200 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 845fe471ecb53984cb65dabda34d8375, type: 3}
