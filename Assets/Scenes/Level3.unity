@@ -1512,7 +1512,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slowDuration: 3
-  slowMultiplier: 0.5
+  slowMultiplier: 5
 --- !u!1001 &114146685
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2897,7 +2897,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slowDuration: 3
-  slowMultiplier: 0.5
+  slowMultiplier: 5
 --- !u!1001 &189491537
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5109,7 +5109,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slowDuration: 3
-  slowMultiplier: 0.5
+  slowMultiplier: 5
 --- !u!1001 &350756782
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5224,7 +5224,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slowDuration: 3
-  slowMultiplier: 0.5
+  slowMultiplier: 5
 --- !u!1 &351912449 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 845fe471ecb53984cb65dabda34d8375, type: 3}
@@ -5542,7 +5542,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 3852086af9907cf428ac3b9f9979afe4, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.030977132
+      value: 0.03097713
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3852086af9907cf428ac3b9f9979afe4, type: 3}
       propertyPath: m_LocalScale.y
@@ -5550,7 +5550,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3852086af9907cf428ac3b9f9979afe4, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.030977132
+      value: 0.03097713
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3852086af9907cf428ac3b9f9979afe4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5566,7 +5566,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3852086af9907cf428ac3b9f9979afe4, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.11484019
+      value: 0.11484018
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3852086af9907cf428ac3b9f9979afe4, type: 3}
       propertyPath: m_LocalRotation.x
@@ -5574,7 +5574,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3852086af9907cf428ac3b9f9979afe4, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.99338406
+      value: 0.993384
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3852086af9907cf428ac3b9f9979afe4, type: 3}
       propertyPath: m_LocalRotation.z
@@ -5646,7 +5646,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slowDuration: 3
-  slowMultiplier: 0.5
+  slowMultiplier: 5
 --- !u!1001 &377151338
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6227,7 +6227,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slowDuration: 3
-  slowMultiplier: 0.5
+  slowMultiplier: 5
 --- !u!1001 &407938497
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8478,7 +8478,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slowDuration: 3
-  slowMultiplier: 0.5
+  slowMultiplier: 5
 --- !u!1001 &557911172
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16969,7 +16969,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slowDuration: 3
-  slowMultiplier: 0.5
+  slowMultiplier: 5
 --- !u!1001 &1005492361
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17084,7 +17084,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slowDuration: 3
-  slowMultiplier: 0.5
+  slowMultiplier: 5
 --- !u!1001 &1005787141
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21587,7 +21587,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slowDuration: 3
-  slowMultiplier: 0.5
+  slowMultiplier: 5
 --- !u!1001 &1224706503
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25152,7 +25152,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slowDuration: 3
-  slowMultiplier: 0.5
+  slowMultiplier: 5
 --- !u!1001 &1455217264
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27436,7 +27436,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slowDuration: 3
-  slowMultiplier: 0.5
+  slowMultiplier: 5
 --- !u!1001 &1603570726
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28560,7 +28560,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slowDuration: 3
-  slowMultiplier: 0.5
+  slowMultiplier: 5
 --- !u!1001 &1682557877
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31468,7 +31468,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slowDuration: 3
-  slowMultiplier: 0.5
+  slowMultiplier: 5
 --- !u!1001 &1858914865
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32298,7 +32298,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slowDuration: 3
-  slowMultiplier: 0.5
+  slowMultiplier: 5
 --- !u!1001 &1913258381
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34670,7 +34670,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slowDuration: 3
-  slowMultiplier: 0.5
+  slowMultiplier: 5
 --- !u!1 &2038807104 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b3080d4bad32f2741b2ce45caab3515c, type: 3}
@@ -35688,7 +35688,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slowDuration: 3
-  slowMultiplier: 0.5
+  slowMultiplier: 5
 --- !u!1 &2092776200 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 845fe471ecb53984cb65dabda34d8375, type: 3}
@@ -36325,7 +36325,6 @@ SceneRoots:
   - {fileID: 1437359045}
   - {fileID: 2091906086}
   - {fileID: 183635024}
-  - {fileID: 373031674}
   - {fileID: 401733396}
   - {fileID: 90877080}
   - {fileID: 350756782}
@@ -36689,3 +36688,4 @@ SceneRoots:
   - {fileID: 1085157398}
   - {fileID: 1913850126}
   - {fileID: 770323825}
+  - {fileID: 373031674}
