@@ -43,7 +43,6 @@ public class Keypad : MonoBehaviour
             benar.SetActive(false);
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
-            Destroy(gameObject);
         }else{
             string text = Ans.text;
             string textjadi = Ans.text.Substring(0, Ans.text.Length - 5);
