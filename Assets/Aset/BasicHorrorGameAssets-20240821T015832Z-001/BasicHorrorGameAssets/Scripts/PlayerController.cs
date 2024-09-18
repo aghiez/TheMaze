@@ -6,6 +6,7 @@ using UnityEngine;
 [RequireComponent(typeof(CharacterController))]
 public class PlayerController : MonoBehaviour
 {
+    public JoystickControl joystick;
     // Camera:
     public Camera playerCam;
 
@@ -68,13 +69,14 @@ public class PlayerController : MonoBehaviour
 
         bool isRunning = Input.GetKey(KeyCode.LeftShift);
 
-        float curSpeedX = canMove ? (isRunning ? runSpeed : walkSpeed) * Input.GetAxis("Vertical") : 0;
-        float curSpeedY = canMove ? (isRunning ? runSpeed : walkSpeed) * Input.GetAxis("Horizontal") : 0;
+        float curSpeedX = canMove ? (joystick.Vertical() * (isRunning ? runSpeed : walkSpeed)) : 0;
+        float curSpeedY = canMove ? (joystick.Horizontal() * (isRunning ? runSpeed : walkSpeed)) : 0;
         float movementDirectionY = moveDirection.y;
         moveDirection = (forward * curSpeedX) + (right * curSpeedY);
 
+        //Input.GetButton("Jump") && canMove &&
         // Jumping In Action:
-        if (Input.GetButton("Jump") && canMove && characterController.isGrounded)
+        if (characterController.isGrounded)
         {
             moveDirection.y = jumpPower;
         }
