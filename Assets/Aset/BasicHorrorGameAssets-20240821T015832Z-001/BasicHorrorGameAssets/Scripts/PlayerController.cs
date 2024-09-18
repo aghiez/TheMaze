@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
 
     // Movement Settings:
     public static float walkSpeed = 3f;
-    public float runSpeed = 5f;
+    public static float runSpeed = 5f;
     public float jumpPower = 0f;
     public float gravity = 10f;
 
