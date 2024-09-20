@@ -1515,6 +1515,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aaz: {fileID: 804601584}
+  perangkap: {fileID: 90877081}
 --- !u!54 &90877084
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1540,7 +1541,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 126
+  m_Constraints: 12
   m_CollisionDetection: 0
 --- !u!1001 &114146685
 PrefabInstance:
@@ -3014,6 +3015,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aaz: {fileID: 804601584}
+  perangkap: {fileID: 183635025}
 --- !u!54 &183635028
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3039,7 +3041,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 126
+  m_Constraints: 12
   m_CollisionDetection: 0
 --- !u!1001 &189491537
 PrefabInstance:
@@ -3348,6 +3350,81 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 85a44bbed86eb134cb3c70737c1b57d6, type: 3}
+--- !u!1 &212774467
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 212774468}
+  - component: {fileID: 212774470}
+  - component: {fileID: 212774469}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &212774468
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212774467}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 804601588}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1253, y: 664}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &212774469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212774467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 1, b: 0.04619026, a: 0.21960784}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &212774470
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212774467}
+  m_CullTransparentMesh: 1
 --- !u!1001 &223631992
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5336,6 +5413,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aaz: {fileID: 804601584}
+  perangkap: {fileID: 350715266}
 --- !u!54 &350715269
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5361,7 +5439,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 126
+  m_Constraints: 12
   m_CollisionDetection: 0
 --- !u!1001 &350756782
 PrefabInstance:
@@ -5480,6 +5558,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aaz: {fileID: 804601584}
+  perangkap: {fileID: 350756783}
 --- !u!54 &350756786
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5505,7 +5584,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 126
+  m_Constraints: 12
   m_CollisionDetection: 0
 --- !u!1 &351912449 stripped
 GameObject:
@@ -5928,6 +6007,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aaz: {fileID: 373031675}
+  perangkap: {fileID: 0}
 --- !u!1001 &377151338
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6511,6 +6591,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aaz: {fileID: 804601584}
+  perangkap: {fileID: 401733397}
 --- !u!54 &401733400
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6536,7 +6617,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 126
+  m_Constraints: 12
   m_CollisionDetection: 0
 --- !u!1001 &407938497
 PrefabInstance:
@@ -8734,6 +8815,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aaz: {fileID: 804601584}
+  perangkap: {fileID: 557095611}
 --- !u!54 &557095614
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8759,7 +8841,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 126
+  m_Constraints: 12
   m_CollisionDetection: 0
 --- !u!1001 &557911172
 PrefabInstance:
@@ -14408,7 +14490,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 212774468}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -17528,6 +17611,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aaz: {fileID: 804601584}
+  perangkap: {fileID: 1002196218}
 --- !u!54 &1002196221
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17553,7 +17637,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 126
+  m_Constraints: 12
   m_CollisionDetection: 0
 --- !u!1001 &1005492361
 PrefabInstance:
@@ -17672,6 +17756,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aaz: {fileID: 1005492362}
+  perangkap: {fileID: 0}
 --- !u!54 &1005492365
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -22173,6 +22258,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aaz: {fileID: 1219912621}
+  perangkap: {fileID: 0}
 --- !u!54 &1219912624
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -25937,6 +26023,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aaz: {fileID: 804601584}
+  perangkap: {fileID: 1437359046}
 --- !u!54 &1437359049
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -25962,7 +26049,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 126
+  m_Constraints: 12
   m_CollisionDetection: 0
 --- !u!1001 &1455217264
 PrefabInstance:
@@ -28281,6 +28368,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aaz: {fileID: 804601584}
+  perangkap: {fileID: 1602705440}
 --- !u!54 &1602705443
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -28306,7 +28394,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 126
+  m_Constraints: 12
   m_CollisionDetection: 0
 --- !u!1001 &1603570726
 PrefabInstance:
@@ -29434,6 +29522,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aaz: {fileID: 804601584}
+  perangkap: {fileID: 1682498390}
 --- !u!54 &1682498393
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -29459,7 +29548,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 126
+  m_Constraints: 12
   m_CollisionDetection: 0
 --- !u!1001 &1683938019
 PrefabInstance:
@@ -32346,6 +32435,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aaz: {fileID: 804601584}
+  perangkap: {fileID: 1850832071}
 --- !u!54 &1850832074
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -32371,7 +32461,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 126
+  m_Constraints: 12
   m_CollisionDetection: 0
 --- !u!1001 &1858914865
 PrefabInstance:
@@ -33205,6 +33295,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aaz: {fileID: 804601584}
+  perangkap: {fileID: 1908769799}
 --- !u!54 &1908769802
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -33230,7 +33321,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 126
+  m_Constraints: 12
   m_CollisionDetection: 0
 --- !u!1001 &1913258381
 PrefabInstance:
@@ -35606,6 +35697,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aaz: {fileID: 804601584}
+  perangkap: {fileID: 2031467892}
 --- !u!54 &2031467895
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -35631,7 +35723,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 126
+  m_Constraints: 12
   m_CollisionDetection: 0
 --- !u!1 &2038807104 stripped
 GameObject:
@@ -36653,6 +36745,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aaz: {fileID: 804601584}
+  perangkap: {fileID: 2091906087}
 --- !u!54 &2091906090
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -36678,7 +36771,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 126
+  m_Constraints: 12
   m_CollisionDetection: 0
 --- !u!1 &2092776200 stripped
 GameObject:
