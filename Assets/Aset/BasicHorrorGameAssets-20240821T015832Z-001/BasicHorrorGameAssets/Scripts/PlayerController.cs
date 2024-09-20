@@ -98,7 +98,7 @@ public class PlayerController : MonoBehaviour
         characterController.Move(moveDirection * Time.deltaTime);
 
         // Camera Movement In Action:
-        if (canMove)
+        /*if (canMove)
         {
             rotationX -= Input.GetAxis("Mouse Y") * lookSpeed;
             rotationX = Mathf.Clamp(rotationX, -lookXLimit, lookXLimit);
@@ -110,7 +110,7 @@ public class PlayerController : MonoBehaviour
 
             playerCam.transform.localRotation = Quaternion.Slerp(playerCam.transform.localRotation, targetRotationX, Time.deltaTime * cameraRotationSmooth);
             transform.rotation = Quaternion.Slerp(transform.rotation, targetRotationY, Time.deltaTime * cameraRotationSmooth);
-        }
+        }*/
 
         // Zooming In Action:
         if (Input.GetButtonDown("Fire2"))
