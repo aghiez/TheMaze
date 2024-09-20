@@ -32,7 +32,7 @@ public class AutonomousMouse : MonoBehaviour
         direction = Mathf.Repeat(direction, 90.0f);
 
         // Ensure the mouse stays within the boundaries
-       /* Vector3 position = transform.position;
+        Vector3 position = transform.position;
         if (position.x < boundaryPadding)
             position.x = boundaryPadding;
         else if (position.x > Screen.width - boundaryPadding)
@@ -42,7 +42,7 @@ public class AutonomousMouse : MonoBehaviour
         else if (position.z > Screen.height - boundaryPadding)
             position.z = Screen.height - boundaryPadding;
         transform.position = position;
-        */
+        
     }
 
     // Handle collision

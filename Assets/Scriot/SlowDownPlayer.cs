@@ -3,36 +3,35 @@ using UnityEngine;
 
 public class SlowDownPlayer : MonoBehaviour
 {
-    public float slowDuration = 3f;      // Durasi efek perlambatan
-    public float slowMultiplier = 0.5f;  // Faktor perlambatan (0.5 artinya kecepatan berkurang setengah)
+    public GameObject aaz;
+    // Start is called before the first frame update
+    void Start()
+    {
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            // Mulai coroutine untuk memperlambat pemain
-            StartCoroutine(SlowPlayer(other));
-
-            // Menghilangkan objek setelah terkena pemain
-            Destroy(gameObject);
+            PlayerController.walkSpeed = 0.5f;
+            PlayerController.runSpeed = 1.5f;
+            aaz.SetActive(true);
+            Invoke("speedbalik", 1f);
         }
     }
 
-    private IEnumerator SlowPlayer(Collider player)
+    private void speedbalik()
     {
-        // Ambil komponen PlayerMovement dari pemain
-        PlayerMovement playerMovement = player.GetComponent<PlayerMovement>();
-
-        if (playerMovement != null)
-        {
-            // Kurangi kecepatan pemain
-            playerMovement.speed *= slowMultiplier;
-
-            // Tunggu selama durasi perlambatan
-            yield return new WaitForSeconds(slowDuration);
-
-            // Kembalikan kecepatan normal pemain
-            playerMovement.speed /= slowMultiplier;
-        }
+        aaz.SetActive(false);
+        PlayerController.walkSpeed = 3f;
+        PlayerController.runSpeed = 5f;
+        Destroy(gameObject);
     }
 }
