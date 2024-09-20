@@ -4,6 +4,7 @@ using UnityEngine;
 public class SlowDownPlayer : MonoBehaviour
 {
     public GameObject aaz;
+    public GameObject perangkap;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,23 +16,30 @@ public class SlowDownPlayer : MonoBehaviour
     {
 
     }
-
-    private void OnTriggerEnter(Collider other)
+  private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            PlayerController.walkSpeed = 0.5f;
-            PlayerController.runSpeed = 1.5f;
+            PlayerController.walkSpeed = 0f;
             aaz.SetActive(true);
-            Invoke("speedbalik", 1f);
+            Invoke("speedbalik", 2f);
+
         }
     }
 
     private void speedbalik()
     {
         aaz.SetActive(false);
-        PlayerController.walkSpeed = 3f;
-        PlayerController.runSpeed = 5f;
-        Destroy(gameObject);
+        PlayerController.walkSpeed = 2f;
+         perangkap.SetActive(false);
+        Invoke("PERANGKAP", 8f);
+       // Destroy(gameObject);
+    }
+     private void PERANGKAP()
+    {
+        perangkap.SetActive(true);
+       // PlayerController.walkSpeed = 2f;
+       // Invoke("PERANGKAP", 7f);
+       // Destroy(gameObject);
     }
 }
