@@ -48,12 +48,12 @@ public class Pistol : MonoBehaviour
         currentAmmoInMag = Mathf.Clamp(currentAmmoInMag, 0, maxAmmoInMag);
         currentAmmoInStorage = Mathf.Clamp(currentAmmoInStorage, 0, maxAmmoInStorage);
 
-        // Check for shoot input
-        if (Input.GetButtonDown("Fire1") && canShoot && !isReloading)
-        {
-            switchCooldown = shootCooldown;
-            Shoot();
-        }
+        // // Check for shoot input
+        // if (Input.GetButtonDown("Fire1") && canShoot && !isReloading)
+        // {
+        //     switchCooldown = shootCooldown;
+        //     Shoot();
+        // }
         
 
         // Check for reload input
@@ -70,11 +70,13 @@ public class Pistol : MonoBehaviour
         }
     }
 
-    void Shoot()
+    public void Shoot()
     {
+        
         // Check if there is ammo in the magazine
         if (currentAmmoInMag > 0 && shootTimer <= 0f)
         {
+            Debug.Log(currentAmmoInMag);
             canSwitch = false;
             shoot.Play();
             muzzleFlash.Play();
@@ -124,8 +126,9 @@ public class Pistol : MonoBehaviour
         }
         else
         {
-            // Out of ammo in the magazine or shoot on cooldown
-            Debug.Log("Cannot shoot");
+            Debug.Log("Cannot Shoot");
+            // switchCooldown = reloadCooldown;
+            // Reload();
         }
     }
 
