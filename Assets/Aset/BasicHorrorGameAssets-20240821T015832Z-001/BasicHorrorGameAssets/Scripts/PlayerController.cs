@@ -67,15 +67,22 @@ public class PlayerController : MonoBehaviour
         Vector3 forward = transform.TransformDirection(Vector3.forward);
         Vector3 right = transform.TransformDirection(Vector3.right);
 
-        bool isRunning = Input.GetKey(KeyCode.LeftShift);
+
 
         /*float curSpeedX = canMove ? (isRunning ? runSpeed : walkSpeed) * Input.GetAxis("Vertical") : 0;
         float curSpeedY = canMove ? (isRunning ? runSpeed : walkSpeed) * Input.GetAxis("Horizontal") : 0;
         float movementDirectionY = moveDirection.y;
         moveDirection = (forward * curSpeedX) + (right * curSpeedY);*/
 
-        float curSpeedX = canMove ? (joystick.Vertical() * (isRunning ? runSpeed : walkSpeed)) : 0;
-        float curSpeedY = canMove ? (joystick.Horizontal() * (isRunning ? runSpeed : walkSpeed)) : 0;
+        float verticalInput = joystick.Vertical();
+        float horizontalInput = joystick.Horizontal();
+
+        // Jika joystick ditekan lebih dari threshold tertentu (misal 0.7), maka berlari
+        bool isRunning = Mathf.Abs(verticalInput) > 0.8f || Mathf.Abs(horizontalInput) > 0.8f;
+
+        // Tentukan kecepatan berdasarkan apakah sedang berlari atau berjalan
+        float curSpeedX = canMove ? (verticalInput * (isRunning ? runSpeed : walkSpeed)) : 0;
+        float curSpeedY = canMove ? (horizontalInput * (isRunning ? runSpeed : walkSpeed)) : 0;
         float movementDirectionY = moveDirection.y;
         moveDirection = (forward * curSpeedX) + (right * curSpeedY);
 
