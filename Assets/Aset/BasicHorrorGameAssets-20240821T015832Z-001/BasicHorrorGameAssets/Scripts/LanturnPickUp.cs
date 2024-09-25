@@ -7,6 +7,10 @@ public class LanturnPickUp : MonoBehaviour
     private GameObject OB;
     public GameObject handUI;
     public GameObject lanturn;
+    public GameObject button;
+
+    int a = 0;
+
 
 
     private bool inReach;
@@ -20,6 +24,7 @@ public class LanturnPickUp : MonoBehaviour
 
         lanturn.SetActive(false);
 
+
     }
 
     void OnTriggerEnter(Collider other)
@@ -28,6 +33,7 @@ public class LanturnPickUp : MonoBehaviour
         {
             inReach = true;
             handUI.SetActive(true);
+            button.SetActive(true);
         }
 
     }
@@ -38,6 +44,7 @@ public class LanturnPickUp : MonoBehaviour
         {
             inReach = false;
             handUI.SetActive(false);
+            button.SetActive(false);
         }
     }
 
@@ -45,17 +52,23 @@ public class LanturnPickUp : MonoBehaviour
     {
 
 
-        if (inReach && Input.GetButtonDown("Interact"))
+        if (inReach && a == 1)
         {
-            handUI.SetActive(false);
+           handUI.SetActive(false);
             lanturn.SetActive(true);
             StartCoroutine(end());
+            a = 0;
         }
     }
-
+    
     IEnumerator end()
     {
         yield return new WaitForSeconds(.01f);
         Destroy(OB);
+    }
+
+
+    public void ambil(){
+        a = 1;
     }
 }
