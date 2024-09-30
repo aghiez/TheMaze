@@ -388,12 +388,76 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates:
-  - eventID: 2
+  - eventID: 0
     callback:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1495018923}
           m_TargetAssemblyTypeName: LanturnPickUp, Assembly-CSharp
+          m_MethodName: ambil
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 997417960}
+          m_TargetAssemblyTypeName: UseChest, Assembly-CSharp
+          m_MethodName: ambil
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 2068071341}
+          m_TargetAssemblyTypeName: UseChest, Assembly-CSharp
+          m_MethodName: ambil
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1375116119}
+          m_TargetAssemblyTypeName: UseChest, Assembly-CSharp
+          m_MethodName: ambil
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1774849101}
+          m_TargetAssemblyTypeName: UseChest, Assembly-CSharp
+          m_MethodName: ambil
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1699073449}
+          m_TargetAssemblyTypeName: UseChest, Assembly-CSharp
           m_MethodName: ambil
           m_Mode: 1
           m_Arguments:
@@ -1430,6 +1494,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8457186140180154407, guid: 28923568641c87e4fbfb538f1dbd2138, type: 3}
   m_PrefabInstance: {fileID: 5402068188828014301}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &997417960 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8014997701967343697, guid: 28923568641c87e4fbfb538f1dbd2138, type: 3}
+  m_PrefabInstance: {fileID: 5402068188828014301}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f393d2b76d09f0648a227bc799c5d854, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1007128344
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2197,6 +2272,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 759145240}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1375116119 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 487325922167823227, guid: 4c7f68632de774d4b91d2390bf1b8250, type: 3}
+  m_PrefabInstance: {fileID: 85853026354263937}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f393d2b76d09f0648a227bc799c5d854, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1445289288
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2548,6 +2634,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 759145240}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1699073449 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6207186037880625359, guid: d89ca3321787f51408e12a045e858e5f, type: 3}
+  m_PrefabInstance: {fileID: 7470657156400712973}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f393d2b76d09f0648a227bc799c5d854, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1711030418 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7eba3fdf68aa1ed499a32655f9b87cc0, type: 3}
@@ -2590,6 +2687,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2374555588971833412, guid: 340b5e0d0ebccd14194c5c65cb8a11b6, type: 3}
   m_PrefabInstance: {fileID: 5935248718259169569}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1774849101 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2537481717553800153, guid: d89ca3321787f51408e12a045e858e5f, type: 3}
+  m_PrefabInstance: {fileID: 7470657156400712973}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f393d2b76d09f0648a227bc799c5d854, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1840522062
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2783,6 +2891,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3167137356418496953, guid: 38c5dd16ccb9b2c43a982d4bfcb76509, type: 3}
   m_PrefabInstance: {fileID: 6906001888749787166}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2068071341 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 431897574848622569, guid: 38c5dd16ccb9b2c43a982d4bfcb76509, type: 3}
+  m_PrefabInstance: {fileID: 6906001888749787166}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f393d2b76d09f0648a227bc799c5d854, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2109812328 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7101084355560508982, guid: 340b5e0d0ebccd14194c5c65cb8a11b6, type: 3}
